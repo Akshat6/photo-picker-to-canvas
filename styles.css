@@ -1,0 +1,38 @@
+.ctc-canvas-view { position: relative; }
+.ctc-picker-on-canvas {
+  position: absolute;
+  z-index: 70;
+  left: 14px;
+  bottom: 90px;
+  min-height: 44px;
+  min-width: 115px;
+  padding: 9px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-primary);
+  color: var(--text-normal);
+  box-shadow: var(--shadow-s);
+  font-weight: 600;
+  cursor: pointer;
+}
+.ctc-picker-on-canvas:active { background: var(--background-modifier-hover); }
+.ctc-orientation-modal h3 { margin-bottom: 8px; }
+.ctc-orientation-buttons { display: flex; flex-wrap: wrap; gap: 12px; margin: 14px 0; }
+.ctc-orientation-choice {
+  flex: 1 1 170px;
+  min-height: 78px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+  color: var(--text-normal);
+}
+.ctc-orientation-choice strong { font-size: 15px; }
+.ctc-orientation-choice small { opacity: 0.7; }
+.ctc-cancel { margin-top: 8px; }
+.ctc-settings-note { color: var(--text-muted); }
