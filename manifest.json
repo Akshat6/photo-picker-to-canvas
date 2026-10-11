@@ -1,0 +1,9 @@
+{
+  "id": "camera-to-canvas-prototype",
+  "name": "Photo Picker to Canvas (Prototype)",
+  "version": "0.3.2",
+  "minAppVersion": "1.14.0",
+  "description": "Picker-only native Canvas photo insertion; reads Android image bytes before picker access expires, then asks horizontal/vertical.",
+  "author": "ChatGPT experimental local prototype",
+  "isDesktopOnly": false
+}
